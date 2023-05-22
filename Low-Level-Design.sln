@@ -9,25 +9,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design P
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy Pattern", "Strategy Pattern", "{60C13972-F0C8-497E-BC14-FF1206D55F9D}"
-	ProjectSection(SolutionItems) = preProject
-		Strategy Pattern.md = Strategy Pattern.md
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy Pattern", "Strategy Pattern\Strategy Pattern.csproj", "{C1B1CD97-BA54-4A70-9ABD-BF88B1B0C757}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer Pattern", "Observer Pattern", "{B6349092-5558-4587-A84F-68A44AAF0327}"
-	ProjectSection(SolutionItems) = preProject
-		Observer Pattern.md = Observer Pattern.md
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer Pattern", "Observer Pattern\Observer Pattern.csproj", "{9DE348CC-93E1-463C-A43B-C251F19B4F1D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator Pattern", "Decorator Pattern", "{F5BC2A9D-F6ED-4AB8-8646-1836AFED4E6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite Pattern", "Composite Pattern", "{2A13344B-0F10-41BE-9E00-9F101CB9133C}"
-	ProjectSection(SolutionItems) = preProject
-		Composite Pattern.md = Composite Pattern.md
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator Pattern", "Mediator Pattern", "{7F20B370-6528-416B-A0C1-EB9C7778B246}"
 EndProject
