@@ -1,0 +1,1 @@
+﻿<a href="https://code-maze.com/cqrs-mediatr-in-aspnet-core/">Click here to read</a>
