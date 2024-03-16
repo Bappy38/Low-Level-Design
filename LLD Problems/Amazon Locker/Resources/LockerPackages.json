@@ -1,0 +1,103 @@
+[
+  {
+    "PackageId": "package_1",
+    "PackageSize": 10.5,
+    "Order": {
+      "Id": "order_1",
+      "Items": [
+        {
+          "Id": "item_1",
+          "Quantity": 2
+        },
+        {
+          "Id": "item_2",
+          "Quantity": 1
+        }
+      ],
+      "DeliveryLocation": "Address 1"
+    },
+    "LockerId": "",
+    "Code": "",
+    "DeliveryTimeAtUtc": "2024-03-16T12:00:00"
+  },
+  {
+    "PackageId": "package_2",
+    "PackageSize": 8.0,
+    "Order": {
+      "Id": "order_2",
+      "Items": [
+        {
+          "Id": "item_3",
+          "Quantity": 3
+        },
+        {
+          "Id": "item_4",
+          "Quantity": 2
+        }
+      ],
+      "DeliveryLocation": "Address 2"
+    },
+    "LockerId": "",
+    "Code": "",
+    "DeliveryTimeAtUtc": "2024-03-16T12:00:00"
+  },
+  {
+    "PackageId": "package_3",
+    "PackageSize": 6.5,
+    "Order": {
+      "Id": "order_3",
+      "Items": [
+        {
+          "Id": "item_1",
+          "Quantity": 1
+        },
+        {
+          "Id": "item_5",
+          "Quantity": 4
+        }
+      ],
+      "DeliveryLocation": "Address 3"
+    },
+    "LockerId": "",
+    "Code": "",
+    "DeliveryTimeAtUtc": "2024-03-16T12:00:00"
+  },
+  {
+    "PackageId": "package_4",
+    "PackageSize": 4.0,
+    "Order": {
+      "Id": "order_4",
+      "Items": [
+        {
+          "Id": "item_6",
+          "Quantity": 1
+        }
+      ],
+      "DeliveryLocation": "Address 4"
+    },
+    "LockerId": "",
+    "Code": "",
+    "DeliveryTimeAtUtc": "2024-03-16T12:00:00"
+  },
+  {
+    "PackageId": "package_5",
+    "PackageSize": 9.0,
+    "Order": {
+      "Id": "order_5",
+      "Items": [
+        {
+          "Id": "item_3",
+          "Quantity": 2
+        },
+        {
+          "Id": "item_7",
+          "Quantity": 3
+        }
+      ],
+      "DeliveryLocation": "Address 5"
+    },
+    "LockerId": "",
+    "Code": "",
+    "DeliveryTimeAtUtc": "2024-03-16T12:00:00"
+  }
+]

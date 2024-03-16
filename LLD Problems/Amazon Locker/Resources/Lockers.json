@@ -1,0 +1,37 @@
+[
+  {
+    "Id": "locker_1",
+    "Size": "Medium",
+    "LocationId": "locker_location_1",
+    "State": "Available",
+    "LockedTill": "1990-01-01T00:00:00"
+  },
+  {
+    "Id": "locker_2",
+    "Size": "Small",
+    "LocationId": "locker_location_2",
+    "State": "Booked",
+    "LockedTill": "1990-01-01T00:00:00"
+  },
+  {
+    "Id": "locker_3",
+    "Size": "Large",
+    "LocationId": "locker_location_1",
+    "State": "Closed",
+    "LockedTill": "1990-01-01T00:00:00"
+  },
+  {
+    "Id": "locker_4",
+    "Size": "ExtraLarge",
+    "LocationId": "locker_location_3",
+    "State": "Available",
+    "LockedTill": "1990-01-01T00:00:00"
+  },
+  {
+    "Id": "locker_5",
+    "Size": "DoubleExtraLarge",
+    "LocationId": "locker_location_2",
+    "State": "Available",
+    "LockedTill": "1990-01-01T00:00:00"
+  }
+]

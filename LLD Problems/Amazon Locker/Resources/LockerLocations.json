@@ -1,0 +1,28 @@
+﻿{
+  "Id": "locker_location_1",
+  "Name": "Main Building",
+  "Lockers": [
+    {
+      "Id": "locker_1",
+      "Size": "Medium",
+      "LocationId": "locker_location_1",
+      "State": "Available"
+    },
+    {
+      "Id": "locker_2",
+      "Size": "Small",
+      "LocationId": "locker_location_1",
+      "State": "Booked"
+    },
+    {
+      "Id": "locker_3",
+      "Size": "Large",
+      "LocationId": "locker_location_1",
+      "State": "Closed"
+    }
+  ],
+  "Longitude": 123.456,
+  "Latitude": 78.910,
+  "OpenTime": "2024-03-16T08:00:00",
+  "CloseTime": "2024-03-16T18:00:00"
+}
