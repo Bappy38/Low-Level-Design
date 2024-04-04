@@ -1,0 +1,1 @@
+﻿The main service should be a singleton service where we can implement Singleton design pattern. We can also implement the Chain of Responsibility design pattern to design the service that will be responsible for returning the remaining money to the customer. We can also use strategy pattern to select dynamic implementation for different types of services.
