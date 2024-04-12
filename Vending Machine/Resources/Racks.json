@@ -1,0 +1,77 @@
+[
+  {
+    "Id": 1,
+    "Product": {
+      "Id": 101,
+      "Name": "Kitkat",
+      "Price": 999.99,
+      "Type": "CHOCOLATE"
+    }
+  },
+  {
+    "Id": 2,
+    "Product": {
+      "Id": 102,
+      "Name": "Pran Potato Chips",
+      "Price": 599.99,
+      "Type": "SNACK"
+    }
+  },
+  {
+    "Id": 3,
+    "Product": {
+      "Id": 103,
+      "Name": "Ring Chips",
+      "Price": 49.99,
+      "Type": "SNACK"
+    }
+  },
+  {
+    "Id": 4,
+    "Product": null
+  },
+  {
+    "Id": 5,
+    "Product": {
+      "Id": 105,
+      "Name": "Mojo",
+      "Price": 99.99,
+      "Type": "BEVERAGE"
+    }
+  },
+  {
+    "Id": 6,
+    "Product": {
+      "Id": 106,
+      "Name": "Pran Up",
+      "Price": 149.99,
+      "Type": "BEVERAGE"
+    }
+  },
+  {
+    "Id": 7,
+    "Product": null
+  },
+  {
+    "Id": 8,
+    "Product": {
+      "Id": 108,
+      "Name": "Frutika",
+      "Price": 299.99,
+      "Type": "BEVERAGE"
+    }
+  },
+  {
+    "Id": 9,
+    "Product": {
+      "Id": 109,
+      "Name": "Froto",
+      "Price": 199.99,
+      "Type": "BEVERAGE"
+    }
+  },
+  {
+    "Id": 10,
+    "Product": null
+  }
+]

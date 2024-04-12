@@ -1,1 +1,2 @@
-﻿The main service should be a singleton service where we can implement Singleton design pattern. We can also implement the Chain of Responsibility design pattern to design the service that will be responsible for returning the remaining money to the customer. We can also use strategy pattern to select dynamic implementation for different types of services.
+﻿1. We will implement State Design Pattern to handle different kinds of states of the vending machine. Main difference between the State Design Pattern and Strategy Design Pattern is every state implement all the behaviors of base state where in strategy design pattern every strategy defines a single behaviors.
+2. The VendingMachine Service will be a singleton all over the system
