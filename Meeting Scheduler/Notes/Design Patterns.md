@@ -1,0 +1,2 @@
+- As the `MeetingScheduler` class is the main class of the meeting scheduler which is responsible for scheduling and canceling a meeting as well as booking or releasing room. That's why `MeetingScheduler` class will be a Singleton class to ensure that only one instance for the scheduler is created in the entire system.
+- We also need to implement observer design pattern for sending notification. Later, we will replace this with an message queue implementation.

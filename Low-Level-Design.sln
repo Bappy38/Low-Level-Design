@@ -69,7 +69,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository Pattern", "Repos
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vending Machine", "Vending Machine\Vending Machine.csproj", "{ED9AC9E3-E46A-4C5A-BBD8-C14C237AA33C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsoleApp", "SampleConsoleApp\SampleConsoleApp.csproj", "{F5473BAC-583F-429F-8A77-D7C71385A714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleConsoleApp", "SampleConsoleApp\SampleConsoleApp.csproj", "{F5473BAC-583F-429F-8A77-D7C71385A714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meeting Scheduler", "Meeting Scheduler\Meeting Scheduler.csproj", "{64CBA041-D219-48A2-816A-5C02CE3DFF38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{F5473BAC-583F-429F-8A77-D7C71385A714}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5473BAC-583F-429F-8A77-D7C71385A714}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5473BAC-583F-429F-8A77-D7C71385A714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CBA041-D219-48A2-816A-5C02CE3DFF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CBA041-D219-48A2-816A-5C02CE3DFF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CBA041-D219-48A2-816A-5C02CE3DFF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CBA041-D219-48A2-816A-5C02CE3DFF38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +177,7 @@ Global
 		{9A2E5F4A-CBD5-4840-A79C-3B0E789F02F3} = {E2200925-B039-46D9-AB84-8D5A91EDE1C6}
 		{ED9AC9E3-E46A-4C5A-BBD8-C14C237AA33C} = {0AFD1BA2-ABEA-4AFC-92E7-2C52C7B233C8}
 		{F5473BAC-583F-429F-8A77-D7C71385A714} = {0AFD1BA2-ABEA-4AFC-92E7-2C52C7B233C8}
+		{64CBA041-D219-48A2-816A-5C02CE3DFF38} = {0AFD1BA2-ABEA-4AFC-92E7-2C52C7B233C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF0C64A7-54BC-4D25-80F3-0126C34C3859}
