@@ -10,6 +10,8 @@ public static class ServiceRegistration
         services.AddSingleton<INotificationSender, PushNotificationSender>();
         services.AddSingleton<NotificationManager>();
 
+        services.AddSingleton<MeetingManager>();
+
         services.AddSingleton<IMeetingScheduler, MeetingScheduler>();
 
         return services;

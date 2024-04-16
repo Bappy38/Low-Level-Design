@@ -8,6 +8,18 @@ public class MeetingRoom
 
     public bool IsAvailable(Interval interval)
     {
+        return BookedIntervals.All(bookedInterval => !bookedInterval.IsOverlapped(interval));
+    }
+
+    public bool BookRoom(Interval interval)
+    {
+        BookedIntervals.Add(interval);
+        return true;
+    }
+
+    public bool ReleaseRoom(Interval interval)
+    {
+        BookedIntervals.Remove(interval);
         return true;
     }
 }

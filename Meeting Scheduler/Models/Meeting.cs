@@ -7,14 +7,4 @@ public class Meeting
     public Interval Interval { get; set; }
     public MeetingRoom Room { get; set; }
     public string Subject { get; set; }
-
-    public void AddParticipants(List<User> participants)
-    {
-        ;
-    }
-
-    public void RemoveParticipant(User participant)
-    {
-        ;
-    }
 }

@@ -4,38 +4,43 @@ namespace Meeting_Scheduler.Services;
 
 public class MeetingScheduler : IMeetingScheduler
 {
-    public List<MeetingRoom> Rooms { get; set; }
+    private readonly NotificationManager _notificationManager;
 
-    public MeetingScheduler()
+    private readonly MeetingManager _meetingManager;
+
+    public MeetingScheduler(
+        NotificationManager notificationManager, 
+        MeetingManager meetingManager)
     {
-        Rooms = new List<MeetingRoom>();
+        _notificationManager = notificationManager;
+        _meetingManager = meetingManager;
     }
 
     public bool ScheduleMeeting(List<User> users, Interval interval)
     {
-        //TODO:: Find out available meeting room and schedule meeting
-        return true;
+        try
+        {
+            _meetingManager.ScheduleMeeting(users, interval);
+            _notificationManager.NotifyUsers($"Scheduled Meeting", users);
+            return true;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            throw;
+        }
     }
 
-    public bool CancelMeeting(List<User> users, Interval interval)
+    public bool CancelMeeting(int meetingId)
     {
-        //TODO:: 
-        return true;
-    }
-
-    public bool BookRoom(MeetingRoom room, int numberOfPersons, Interval interval)
-    {
-        //TODO::
-        return true;
-    }
-
-    public bool ReleaseRoom(MeetingRoom room, Interval interval)
-    {
-        return true;
-    }
-
-    public MeetingRoom GetAvailableRoom(int numberOfPersons, Interval interval)
-    {
-        return null;
+        try
+        {
+            return _meetingManager.CancelMeeting(meetingId);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+            throw;
+        }
     }
 }
