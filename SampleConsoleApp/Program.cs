@@ -1,3 +1,11 @@
 ﻿using SampleConsoleApp.Problems;
+using System.Collections;
 
-Console.WriteLine(MakeTheStringGreat.MakeGood("leEeetcode"));
+
+public class Program
+{
+    public static void Main()
+    {
+        
+    }
+}
