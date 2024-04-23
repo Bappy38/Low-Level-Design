@@ -1,0 +1,27 @@
+﻿[
+  {
+    "Id": 1,
+    "Username": "iqbal_bappy",
+    "Email": "iqbal.bappy@example.com"
+  },
+  {
+    "Id": 2,
+    "Username": "jannat_jenny",
+    "Email": "jannat.jenny@example.com"
+  },
+  {
+    "Id": 3,
+    "Username": "bob_jones",
+    "Email": "bob@example.com"
+  },
+  {
+    "Id": 4,
+    "Username": "emma_brown",
+    "Email": "emma@example.com"
+  },
+  {
+    "Id": 5,
+    "Username": "mike_wilson",
+    "Email": "mike@example.com"
+  }
+]
