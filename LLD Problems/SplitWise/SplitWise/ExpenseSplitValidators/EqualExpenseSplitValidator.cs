@@ -1,9 +1,9 @@
 ﻿using SplitWise.Extensions;
 using SplitWise.Splits;
 
-namespace SplitWise.Expenses;
+namespace SplitWise.ExpenseSplitValidators;
 
-public class EqualExpenseSplit : IExpenseSplit
+public class EqualExpenseSplitValidator : IExpenseSplitValidator
 {
     public void ValidateSplitRequest(IReadOnlyList<Split> splits, double totalAmount)
     {

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SplitWise.Repositories;
+using SplitWise.Interfaces;
+using SplitWise.Models;
 
 namespace SplitWise.Controllers;
 
@@ -7,17 +8,17 @@ namespace SplitWise.Controllers;
 [ApiController]
 public class ExpenseController : ControllerBase
 {
-    private readonly IUserRepository _userRepository;
+    private readonly IExpenseService _expenseService;
 
-    public ExpenseController(IUserRepository userRepository)
+    public ExpenseController(IExpenseService expenseService)
     {
-        _userRepository = userRepository;
+        _expenseService = expenseService;
     }
 
-    [HttpGet("GetUsers")]
-    public async Task<IActionResult> GetUsers()
+    [HttpPost]
+    public async Task<IActionResult> Create(Expense expense)
     {
-        var users = _userRepository.FindAll();
-        return Ok(users);
+        _expenseService.Create(expense);
+        return Created();
     }
 }

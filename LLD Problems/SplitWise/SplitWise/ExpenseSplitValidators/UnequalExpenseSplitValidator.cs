@@ -1,8 +1,8 @@
 ﻿using SplitWise.Splits;
 
-namespace SplitWise.Expenses;
+namespace SplitWise.ExpenseSplitValidators;
 
-public class UnequalExpenseSplit : IExpenseSplit
+public class UnequalExpenseSplitValidator : IExpenseSplitValidator
 {
     public void ValidateSplitRequest(IReadOnlyList<Split> splits, double totalAmount)
     {

@@ -1,19 +1,23 @@
-﻿using SplitWise.Data;
-using SplitWise.Models;
+﻿using SplitWise.Models;
 
 namespace SplitWise.Repositories;
 
 public interface IExpenseRepository
 {
+    void Create(Expense expense);
 }
 
-public class ExpenseRepository : RepositoryBase<Expense>, IExpenseRepository
+public class ExpenseRepository : IExpenseRepository
 {
-    public ExpenseRepository(
-        RepositoryContext repositoryContext, 
-        IUnitOfWork unitOfWork) 
-        : 
-        base(repositoryContext, unitOfWork)
+    private static List<Expense> expenses;
+
+    static ExpenseRepository()
     {
+        expenses = new List<Expense>();
+    }
+
+    public void Create(Expense expense)
+    {
+        expenses.Add(expense);
     }
 }

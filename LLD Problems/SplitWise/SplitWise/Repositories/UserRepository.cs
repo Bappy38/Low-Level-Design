@@ -3,17 +3,28 @@ using SplitWise.Models;
 
 namespace SplitWise.Repositories;
 
-public interface IUserRepository : IRepositoryBase<User>
+public interface IUserRepository
 {
+    List<User> FindAll();
+    void Create(User user);
 }
 
-public class UserRepository : RepositoryBase<User>, IUserRepository
+public class UserRepository : IUserRepository
 {
-    public UserRepository(
-        RepositoryContext repositoryContext, 
-        IUnitOfWork unitOfWork) 
-        : 
-        base(repositoryContext, unitOfWork)
+    private static List<User> _users;
+
+    static UserRepository()
     {
+        _users = DataSeeder.GetSeedData<User>();
+    }
+
+    public List<User> FindAll()
+    {
+        return _users;
+    }
+
+    public void Create(User user)
+    {
+        _users.Add(user);
     }
 }
