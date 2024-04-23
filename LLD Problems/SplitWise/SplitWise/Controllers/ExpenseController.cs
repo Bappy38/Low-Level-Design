@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SplitWise.Models;
 using SplitWise.Repositories;
 
 namespace SplitWise.Controllers;
@@ -15,8 +14,8 @@ public class ExpenseController : ControllerBase
         _userRepository = userRepository;
     }
 
-    [HttpGet]
-    public async Task<IActionResult> Get()
+    [HttpGet("GetUsers")]
+    public async Task<IActionResult> GetUsers()
     {
         var users = _userRepository.FindAll();
         return Ok(users);

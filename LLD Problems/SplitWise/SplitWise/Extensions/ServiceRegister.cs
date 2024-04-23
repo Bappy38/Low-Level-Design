@@ -13,6 +13,7 @@ public static class ServiceRegister
         services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IExpenseRepository, ExpenseRepository>();
+
         return services;
     }
 }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SplitWise.Splits;
 
-public abstract class Split
+public class Split
 {
     [Column("SplitId")]
     public int Id { get; set; }
