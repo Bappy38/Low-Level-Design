@@ -21,4 +21,10 @@ public class ExpenseController : ControllerBase
         _expenseService.Create(expense);
         return Created();
     }
+
+    [HttpGet]
+    public async Task<IActionResult> Get(string username)
+    {
+        ;
+    }
 }

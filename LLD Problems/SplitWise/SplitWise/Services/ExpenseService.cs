@@ -28,4 +28,9 @@ public class ExpenseService : IExpenseService
             throw;
         }
     }
+
+    public void GenerateReport(string username)
+    {
+        ;
+    }
 }

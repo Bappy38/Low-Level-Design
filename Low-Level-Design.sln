@@ -75,9 +75,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meeting Scheduler", "Meetin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SplitWise", "SplitWise", "{DFAF5C5E-99AC-40BB-86DE-BBBA25D26BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitWise", "LLD Problems\SplitWise\SplitWise\SplitWise.csproj", "{C7D49A12-F7FE-453F-A638-96D6099A277C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitWise.UnitTest", "LLD Problems\SplitWise\SplitWise.UnitTest\SplitWise.UnitTest.csproj", "{4EF7E2DF-873D-4E91-BCAB-26FAA0825C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitWise", "LLD Problems\SplitWise\SplitWise\SplitWise.csproj", "{C7D49A12-F7FE-453F-A638-96D6099A277C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,10 +151,6 @@ Global
 		{C7D49A12-F7FE-453F-A638-96D6099A277C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7D49A12-F7FE-453F-A638-96D6099A277C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7D49A12-F7FE-453F-A638-96D6099A277C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EF7E2DF-873D-4E91-BCAB-26FAA0825C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EF7E2DF-873D-4E91-BCAB-26FAA0825C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EF7E2DF-873D-4E91-BCAB-26FAA0825C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EF7E2DF-873D-4E91-BCAB-26FAA0825C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,7 +188,6 @@ Global
 		{64CBA041-D219-48A2-816A-5C02CE3DFF38} = {0AFD1BA2-ABEA-4AFC-92E7-2C52C7B233C8}
 		{DFAF5C5E-99AC-40BB-86DE-BBBA25D26BC2} = {0AFD1BA2-ABEA-4AFC-92E7-2C52C7B233C8}
 		{C7D49A12-F7FE-453F-A638-96D6099A277C} = {DFAF5C5E-99AC-40BB-86DE-BBBA25D26BC2}
-		{4EF7E2DF-873D-4E91-BCAB-26FAA0825C6F} = {DFAF5C5E-99AC-40BB-86DE-BBBA25D26BC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF0C64A7-54BC-4D25-80F3-0126C34C3859}
