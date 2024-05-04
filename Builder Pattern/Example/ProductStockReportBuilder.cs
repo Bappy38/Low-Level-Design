@@ -43,7 +43,7 @@ public class ProductStockReportBuilder : IProductStockReportBuilder
 
 
     /// <summary>
-    /// Usually, Usually, after returning the end result to the client, a
+    /// Usually, after returning the end result to the client, a
     /// builder instance is expected to be ready to start producing 
     /// another product. That's why it's a usual practice to call the 
     /// reset method at the end of the `GetProduct` method body.

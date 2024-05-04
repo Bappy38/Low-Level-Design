@@ -1,4 +1,6 @@
-﻿# Definition
+﻿**Last Read at 03.05.2024**
+
+# Definition
 
 <b>Builder is a creational design pattern, which allows constructing complex objects step by steps</b>
 

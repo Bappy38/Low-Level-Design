@@ -1,4 +1,6 @@
-﻿# Intro
+﻿**Last Read at 3.5.2024**
+
+# Intro
 
 <p>A Decorator is a structural design pattern that allows us to extend the behavior of object by placing these objects into a special wrapper class. The Decorator design pattern is quite popular in C# due to the fact that it helps us dynamically add behaviors to the wrapped object.</p>
 

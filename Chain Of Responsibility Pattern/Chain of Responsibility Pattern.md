@@ -1,4 +1,6 @@
-﻿# Intro
+﻿**Last Read at 3.5.2024**
+
+# Intro
 
 <b>Chain of Responsibility is behavioral design pattern that allows passing request along the chain of potential handlers until one of them handles request.</b>
 
@@ -8,7 +10,20 @@
 
 <p>The pattern is recognizable by behavioral methods of one group of objects that indirectly call the same methods in other objects, while all the object follow the common interface.</p>
 
-<p></p>
+# Advantages
+
+- **Decoupling of Objects:** The pattern makes enables sending a request to a series of possible recipients without having to worry about which object will handle it in the end. This lessens the reliance between items.
+- **Flexibility and Extensibility:** New handlers can be added or existing ones can be modified without affecting the client code. This promotes flexibility and extensibility within the system.
+- **Dynamic Order of Handling:** The sequence and order of handling requests can be changed dynamically during runtime, which allows adjustment of the processing logic as per the requirements.
+- **Simplified Object Interaction:** It simplifies the interaction between the sender and receiver object, as the sender doesn't need to know the processing logic.
+- **Enhanced Maintainability:** Each handler performs a specific type of processing, which making maintaining and modifying the individual components easier without impacting the overall system.
+
+# Disadvantages
+
+- **Possible Unhandled Requests:**
+- **Performance Overhead:**
+- **Complexity in Debugging:**
+- **Runtime Configuration Overhead:**
 
 
 # Resource Link

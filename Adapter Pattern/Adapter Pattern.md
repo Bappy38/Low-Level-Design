@@ -1,4 +1,6 @@
-﻿# Definition
+﻿**Last Read at 03.05.2024**
+
+# Definition
 
 <p>Adapter is a structural design pattern, which allows incompatible objects to collaborate. The Adapter acts as a wrapper between two objects. It catches call from one object and transforms them to format and interface recognizable by the second object.</p>
 

@@ -1,3 +1,5 @@
+**Last Read at 3.5.2024**
+
 <b>Strategy is a behavioral design patterns that turns a set of behaviors into objects and make them interchangeable inside original context object.</b>
 
 <b>In other words, we have a main Context object that holds a reference towards a Strategy object and delegates it by executing its functionality. IF we want to change the way the Context perform its work, we can just replace the current Strategy object with another one.</b>
