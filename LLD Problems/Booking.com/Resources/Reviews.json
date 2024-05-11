@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "HotelId": 1,
+    "UserId": 1,
+    "Rating": 4,
+    "ReviewText": "Great experience at Hotel ABC. Comfortable rooms and excellent service."
+  },
+  {
+    "Id": 2,
+    "HotelId": 1,
+    "UserId": 2,
+    "Rating": 5,
+    "ReviewText": "Stayed at Hotel ABC for a weekend getaway. Loved every moment of it!"
+  },
+  {
+    "Id": 3,
+    "HotelId": 2,
+    "UserId": 3,
+    "Rating": 4,
+    "ReviewText": "Grand Hotel offers a luxurious experience with top-notch amenities."
+  },
+  {
+    "Id": 4,
+    "HotelId": 2,
+    "UserId": 4,
+    "Rating": 4,
+    "ReviewText": "Had a pleasant stay at Grand Hotel. Would definitely recommend it to others."
+  },
+  {
+    "Id": 5,
+    "HotelId": 3,
+    "UserId": 5,
+    "Rating": 5,
+    "ReviewText": "Seaside Resort exceeded my expectations. The beachfront view was breathtaking."
+  },
+  {
+    "Id": 6,
+    "HotelId": 3,
+    "UserId": 6,
+    "Rating": 4,
+    "ReviewText": "Spent a relaxing weekend at Seaside Resort. It was a perfect getaway."
+  },
+  {
+    "Id": 7,
+    "HotelId": 4,
+    "UserId": 7,
+    "Rating": 4,
+    "ReviewText": "Mountain Lodge offers a cozy retreat amidst nature's beauty."
+  },
+  {
+    "Id": 8,
+    "HotelId": 4,
+    "UserId": 8,
+    "Rating": 5,
+    "ReviewText": "Absolutely loved my stay at Mountain Lodge. The surroundings were serene."
+  },
+  {
+    "Id": 9,
+    "HotelId": 5,
+    "UserId": 9,
+    "Rating": 3,
+    "ReviewText": "Riverside Inn provides a peaceful ambiance by the river. However, the room service could be improved."
+  },
+  {
+    "Id": 10,
+    "HotelId": 5,
+    "UserId": 10,
+    "Rating": 4,
+    "ReviewText": "Enjoyed the scenic views at Riverside Inn. The staff was friendly and accommodating."
+  },
+  {
+    "Id": 11,
+    "HotelId": 6,
+    "UserId": 1,
+    "Rating": 5,
+    "ReviewText": "Cityscape Hotel offers stunning city views. The rooms were spacious and clean."
+  },
+  {
+    "Id": 12,
+    "HotelId": 6,
+    "UserId": 2,
+    "Rating": 4,
+    "ReviewText": "Stayed at Cityscape Hotel for a business trip. Impressed by the hospitality."
+  },
+  {
+    "Id": 13,
+    "HotelId": 7,
+    "UserId": 3,
+    "Rating": 5,
+    "ReviewText": "Sunset Beach Resort is a paradise on earth. The sunset views were mesmerizing."
+  },
+  {
+    "Id": 14,
+    "HotelId": 7,
+    "UserId": 4,
+    "Rating": 4,
+    "ReviewText": "Had a wonderful time at Sunset Beach Resort. The staff was attentive and courteous."
+  },
+  {
+    "Id": 15,
+    "HotelId": 8,
+    "UserId": 5,
+    "Rating": 5,
+    "ReviewText": "Forest Retreat offers a secluded escape into nature. Perfect for a peaceful retreat."
+  },
+  {
+    "Id": 16,
+    "HotelId": 8,
+    "UserId": 6,
+    "Rating": 4,
+    "ReviewText": "Enjoyed my stay at Forest Retreat. The cabin was cozy and comfortable."
+  },
+  {
+    "Id": 17,
+    "HotelId": 9,
+    "UserId": 7,
+    "Rating": 5,
+    "ReviewText": "Lakeview Lodge provides stunning views of the lake. A great place to unwind and relax."
+  },
+  {
+    "Id": 18,
+    "HotelId": 9,
+    "UserId": 8,
+    "Rating": 4,
+    "ReviewText": "Had a memorable stay at Lakeview Lodge. The lakeside setting was picturesque."
+  },
+  {
+    "Id": 19,
+    "HotelId": 10,
+    "UserId": 9,
+    "Rating": 4,
+    "ReviewText": "Urban Oasis Hotel offers a peaceful retreat in the heart of the city. Enjoyed my stay."
+  },
+  {
+    "Id": 20,
+    "HotelId": 10,
+    "UserId": 10,
+    "Rating": 3,
+    "ReviewText": "Stayed at Urban Oasis Hotel for a weekend getaway. The noise from the city streets was a bit bothersome."
+  }
+]

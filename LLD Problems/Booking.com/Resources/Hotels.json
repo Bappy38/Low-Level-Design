@@ -1,0 +1,152 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Hotel ABC",
+    "Description": "A luxurious hotel in the heart of the city.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 40.7128,
+      "Longitude": -74.0060
+    },
+    "AverageRating": 4.5,
+    "AccommodationPrice": 150,
+    "FoodPrice": 30,
+    "ServiceCharge": 20
+  },
+  {
+    "Id": 2,
+    "Name": "Grand Hotel",
+    "Description": "Experience grandeur and comfort at our hotel.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 34.0522,
+      "Longitude": -118.2437
+    },
+    "AverageRating": 4.2,
+    "AccommodationPrice": 180,
+    "FoodPrice": 35,
+    "ServiceCharge": 25
+  },
+  {
+    "Id": 3,
+    "Name": "Seaside Resort",
+    "Description": "Relax and unwind by the sea at our resort.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 51.5074,
+      "Longitude": -0.1278
+    },
+    "AverageRating": 4.8,
+    "AccommodationPrice": 200,
+    "FoodPrice": 40,
+    "ServiceCharge": 30
+  },
+  {
+    "Id": 4,
+    "Name": "Mountain Lodge",
+    "Description": "Escape to the mountains and embrace nature at our lodge.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 39.7392,
+      "Longitude": -104.9903
+    },
+    "AverageRating": 4.6,
+    "AccommodationPrice": 170,
+    "FoodPrice": 35,
+    "ServiceCharge": 25
+  },
+  {
+    "Id": 5,
+    "Name": "Riverside Inn",
+    "Description": "Experience tranquility by the riverside at our inn.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 48.8566,
+      "Longitude": 2.3522
+    },
+    "AverageRating": 4.3,
+    "AccommodationPrice": 160,
+    "FoodPrice": 30,
+    "ServiceCharge": 20
+  },
+  {
+    "Id": 6,
+    "Name": "Cityscape Hotel",
+    "Description": "Enjoy stunning city views from our hotel.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 37.7749,
+      "Longitude": -122.4194
+    },
+    "AverageRating": 4.4,
+    "AccommodationPrice": 190,
+    "FoodPrice": 35,
+    "ServiceCharge": 25
+  },
+  {
+    "Id": 7,
+    "Name": "Sunset Beach Resort",
+    "Description": "Witness breathtaking sunsets at our beach resort.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 25.7617,
+      "Longitude": -80.1918
+    },
+    "AverageRating": 4.7,
+    "AccommodationPrice": 210,
+    "FoodPrice": 40,
+    "ServiceCharge": 30
+  },
+  {
+    "Id": 8,
+    "Name": "Forest Retreat",
+    "Description": "Get lost in the beauty of the forest at our retreat.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 45.4215,
+      "Longitude": -75.6972
+    },
+    "AverageRating": 4.9,
+    "AccommodationPrice": 220,
+    "FoodPrice": 45,
+    "ServiceCharge": 35
+  },
+  {
+    "Id": 9,
+    "Name": "Lakeview Lodge",
+    "Description": "Wake up to stunning lake views at our lodge.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 47.6062,
+      "Longitude": -122.3321
+    },
+    "AverageRating": 4.8,
+    "AccommodationPrice": 200,
+    "FoodPrice": 40,
+    "ServiceCharge": 30
+  },
+  {
+    "Id": 10,
+    "Name": "Urban Oasis Hotel",
+    "Description": "Find an oasis in the urban jungle at our hotel.",
+    "Location": {
+      "Name": "Kolatoli",
+      "City": "Cox Bazar",
+      "Latitude": 51.5074,
+      "Longitude": -0.1278
+    },
+    "AverageRating": 4.5,
+    "AccommodationPrice": 180,
+    "FoodPrice": 35,
+    "ServiceCharge": 25
+  }
+]
