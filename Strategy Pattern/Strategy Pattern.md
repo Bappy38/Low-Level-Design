@@ -1,4 +1,4 @@
-**Last Read at 3.5.2024**
+**Last Read at 16.7.2024**
 
 <b>Strategy is a behavioral design patterns that turns a set of behaviors into objects and make them interchangeable inside original context object.</b>
 

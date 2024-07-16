@@ -1,4 +1,4 @@
-﻿**Last Read at 3.5.2024**
+﻿**Last Read at 16.7.2024**
 
 <h3>What is Repository Pattern and Why Should We Use It?</h3>
 <p></p>
