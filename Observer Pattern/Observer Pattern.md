@@ -1,4 +1,4 @@
-**Last Read at 16.7.2024**
+**Last Read at 05.08.2025**
 
 # Intent
 
@@ -35,7 +35,7 @@
 	<li>The <b>Publisher</b> issues events of interest to other objects. These events occur when the publisher changes its state or executes some behaviors. Publishers contain a subscription infrastructure that lets new subscribers join and current subscribers leave the list.</li>
 	<li>When a new event happens, the publisher goes over the subscription list and calls the notification method declared in the subscriber interface on each subscriber object.</li>
 	<li>The <b>Subscriber</b> interface declares the notification interface. In most cases, it consists of a single update method. The method may have several parameters that let the publisher pass some event details along with the update.</li>
-	<li><b>Concrete Subscribers</c> perform some actions in response to notifications issued by the publisher. All of these classes must implement the same interface so the publisher isn’t coupled to concrete classes.</li>
+	<li><b>Concrete Subscribers</c> perform some actions in response to notifications issued by the publisher. All of these classes must implement the same interface so the publisher isnï¿½t coupled to concrete classes.</li>
 	<li>Usually, subscribers need some contextual information to handle the update correctly. For this reason, publishers often pass some context data as arguments of the notification method. The publisher can pass itself as an argument, letting subscriber fetch any required data directly.</li>
 	<li>The Client creates publisher and subscriber objects separately and then registers subscribers for publisher updates.</li>
 </ol>
@@ -55,7 +55,7 @@
 	<li>Declare the publisher interface and describe a pair of methods for adding a subscriber object to and removing it from the list. Remember that publishers must work with subscribers only via the subscriber interface.</li>
 	<li>Decide where to put the actual subscription list and the implementation of subscription methods. Usually, this code looks the same for all types of publishers, so the obvious place to put it is in an abstract class derived directly from the publisher interface. Concrete publishers extend that class, inheriting the subscription behavior.</li>
 	<li>Create concrete publisher classes. Each time something important happens inside a publisher, it must notify all its subscribers.</li>
-	<li>Implement the update notification methods in concrete subscriber classes. Most subscribers would need some context data about the event. It can be passed as an argument of the notification method.<br>But there’s another option. Upon receiving a notification, the subscriber can fetch any data directly from the notification. In this case, the publisher must pass itself via the update method. The less flexible option is to link a publisher to the subscriber permanently via the constructor.</li>
+	<li>Implement the update notification methods in concrete subscriber classes. Most subscribers would need some context data about the event. It can be passed as an argument of the notification method.<br>But thereï¿½s another option. Upon receiving a notification, the subscriber can fetch any data directly from the notification. In this case, the publisher must pass itself via the update method. The less flexible option is to link a publisher to the subscriber permanently via the constructor.</li>
 	<li>The client must create all necessary subscribers and register them with proper publishers.</li>
 </ol>
 
@@ -87,7 +87,7 @@
 
 <p>There's a popular implementation of Mediator pattern that relies on Observer. The mediator object plays the role of publisher, and the components acts as subscribers which subscribe to and unsubscribe from the mediator's events. When Mediator is implemented this way, it may look similar to Observer.</p>
 
-<p>When you’re confused, remember that you can implement the Mediator pattern in other ways. For example, you can permanently link all the components to the same mediator object. This implementation won’t resemble Observer but will still be an instance of the Mediator pattern.
+<p>When youï¿½re confused, remember that you can implement the Mediator pattern in other ways. For example, you can permanently link all the components to the same mediator object. This implementation wonï¿½t resemble Observer but will still be an instance of the Mediator pattern.
 </p>
 
 # Resource
