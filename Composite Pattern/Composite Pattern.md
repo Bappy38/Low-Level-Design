@@ -1,6 +1,6 @@
 # Intro
 
-**Last read was 15.7.2024**
+**Last read was 05.08.2025**
 
 <b>The Composite design pattern is a structural design pattern that allows us to compose objects into a tree structure and then work with that structure as if it is a single object. That also means using this design pattern makes sense when the part of our app can be represented as a tree.</b>
 

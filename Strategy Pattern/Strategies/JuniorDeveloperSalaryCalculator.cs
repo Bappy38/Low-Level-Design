@@ -2,7 +2,8 @@
 
 
 /// <summary>
-/// Concrete Strategies implement the algorithm while following the base Strategy interface. The interface makes them interchangeable in the Context.
+/// Concrete Strategies implement the algorithm while following the base Strategy interface. 
+// The interface makes them interchangeable in the Context.
 /// </summary>
 
 
